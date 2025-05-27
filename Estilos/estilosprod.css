@@ -1,0 +1,92 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+header{
+	text-align: center;
+	background: black;
+	color: white;
+	padding: 30px;
+}
+
+nav{
+	width: auto;
+	list-style-type: none;
+	text-decoration: none;
+	text-align: right;
+	background: blue;
+	margin: 15px;
+}
+nav li{
+	display: inline-flex;
+	font-size: 25px;
+	text-align: center;
+	/*margin: 15px;*/
+}
+
+nav li:hover{
+	background-color: black;
+	
+}
+
+nav a:hover{
+	color: blue;
+}
+
+nav a{
+	text-decoration: none;
+	color: white;
+	width: 140px;
+	padding: 10px;
+}
+
+img{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+.contenedorp{
+	width: auto;
+	height: 500px;
+	display: flex;
+	margin: 10px;
+	background: gray;
+}
+
+.contizq{
+	width: 70%;
+	background: green;
+	display: inline-block ;
+	margin: 10px;
+	padding: 10px;
+}
+.articulo1{
+	padding: 20px;
+	display: inline-flex;
+}
+
+.articulo1 h4{
+	padding: 20px;
+	margin: 10px;
+	background: white;
+}
+
+.articulo1 p{
+	padding: 20px;
+	margin: 10px;
+	background: white;
+}
+
+h3{
+	text-align: center;
+	width: 100%;
+}
+
+footer{
+	width: auto;
+	color: white;
+	background: black;
+	text-align: center;
+}
